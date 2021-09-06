@@ -1,0 +1,27 @@
+{
+  "name": "yousic",
+  "version": "1.0.0",
+  "description": "Music Web Application",
+  "main": "script1.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manu-karenite/tunes.git"
+  },
+  "author": "Manavesh Narendra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manu-karenite/tunes/issues"
+  },
+  "homepage": "https://github.com/manu-karenite/tunes#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "live-server": "^1.2.1",
+    "node-fetch": "^3.0.0"
+  }
+}
